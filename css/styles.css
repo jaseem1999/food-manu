@@ -1,0 +1,130 @@
+body {
+    font-size: 15px;
+    color: black;
+    background-color : rgb(253, 150, 150);
+    font-family: 'Oxygen', sans-serif;
+  }
+  .title  h3{
+    text-align: center;
+    font-weight: bold;
+  }
+  .chh {
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    text-align: center;
+    font: 1em sans-serif;
+    font-weight: bold;
+    color: black;
+    
+  }
+  .chh p {
+    position: relative;
+    left: 10px;
+    top: 5px;
+  }
+
+  .ch {
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    text-align: center;
+    font: 1em sans-serif;
+    font-weight: bold;
+    color: black;
+  }
+  .ch p {
+    position: relative;
+    left: 10px;
+    top: 5px;
+  }
+
+  .row {
+    background-color:white;
+  }
+
+  #column {
+    width: 375px;
+    height: 200px;
+    background: gray;
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    vertical-align: middle;
+    border-right: 15px solid  rgb(253, 150, 150);
+    border-bottom: 10px solid rgb(253, 150, 150);
+  }
+
+  #colum {
+    width: 375px;
+    height: 200px;
+    background: gray;
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    vertical-align: middle;
+    border-right: 15px solid  rgb(253, 150, 150);
+    border-bottom: 10px solid rgb(253, 150, 150);
+  }
+  @media (min-width: 1200px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #column {
+    width: 450px;
+  }
+  #colum {
+    width: 900px;
+  } 
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #column {
+    width: 360px;
+    height: 275px;
+  }
+  #colum {
+    width: 720px;
+  } 
+  .chh p {
+    position: relative;
+    left: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  
+  .chh p {
+    position: relative;
+    left: 10px;
+  }
+  #column {
+    position: relative;
+    left: 10px;
+    width: 525px;
+  }
+  #colum {
+    position: relative;
+    left: 10px;
+    width: 525px;
+  } 
+}
+
+@media (max-width: 479px) {
+  #column {
+    position: relative;
+    left: 10px;
+    width: 350px;
+    height: 250px;
+  }
+  #colum {
+    position: relative;
+    left: 10px;
+    width: 350px;
+    height: 250px;
+  } 
+}
